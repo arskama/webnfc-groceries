@@ -19,4 +19,4 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
- */function o(e){return e===void 0&&(e=window),r(e)?{passive:!0}:!1}function r(e){e===void 0&&(e=window);var t=!1;try{var s={get passive(){return t=!0,!1}},i=function(){};e.document.addEventListener("test",i,s),e.document.removeEventListener("test",i,s)}catch(n){t=!1}return t}export{o as a};
+ */function i(e){return e===void 0&&(e=window),n(e)?{passive:!0}:!1}function n(e){e===void 0&&(e=window);var t=!1;try{var s={get passive(){return t=!0,!1}},r=function(){};e.document.addEventListener("test",r,s),e.document.removeEventListener("test",r,s)}catch(v){t=!1}return t}export{i as a};

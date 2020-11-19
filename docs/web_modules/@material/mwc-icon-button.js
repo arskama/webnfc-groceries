@@ -1,4 +1,4 @@
-import{_ as t}from"../common/foundation-dde8a859.js";import{h as l}from"../common/lit-html-e7095b40.js";import{L as a,c}from"../common/lit-element-f25bd23a.js";import{property as o,query as p,queryAsync as d,internalProperty as u,eventOptions as r,customElement as h}from"../lit-element/lib/decorators.js";import{R as m}from"../common/ripple-handlers-02428190.js";import"../common/foundation-c4780e20.js";import"../lit-html/directives/class-map.js";class i extends a{constructor(){super(...arguments);this.disabled=!1,this.icon="",this.label="",this.shouldRenderRipple=!1,this.rippleHandlers=new m(()=>(this.shouldRenderRipple=!0,this.ripple))}renderRipple(){return this.shouldRenderRipple?l`
+import{_ as t}from"../common/foundation-0785b26f.js";import{h as l}from"../common/lit-html-e7095b40.js";import{L as p,c}from"../common/lit-element-f25bd23a.js";import{property as i,query as a,queryAsync as d,internalProperty as u,eventOptions as r,customElement as m}from"../lit-element/lib/decorators.js";import"../common/base-element-2ff54d43.js";import"../common/foundation-5c3e2770.js";import"../lit-html/directives/class-map.js";import{R as h}from"../common/ripple-handlers-df52c05a.js";class o extends p{constructor(){super(...arguments);this.disabled=!1,this.icon="",this.label="",this.shouldRenderRipple=!1,this.rippleHandlers=new h(()=>(this.shouldRenderRipple=!0,this.ripple))}renderRipple(){return this.shouldRenderRipple?l`
             <mwc-ripple
                 .disabled="${this.disabled}"
                 unbounded>
@@ -19,7 +19,7 @@ import{_ as t}from"../common/foundation-dde8a859.js";import{h as l}from"../commo
     <span class="default-slot-container">
         <slot></slot>
     </span>
-  </button>`}handleRippleMouseDown(e){const s=()=>{window.removeEventListener("mouseup",s),this.handleRippleDeactivate()};window.addEventListener("mouseup",s),this.rippleHandlers.startPress(e)}handleRippleTouchStart(e){this.rippleHandlers.startPress(e)}handleRippleDeactivate(){this.rippleHandlers.endPress()}handleRippleMouseEnter(){this.rippleHandlers.startHover()}handleRippleMouseLeave(){this.rippleHandlers.endHover()}handleRippleFocus(){this.rippleHandlers.startFocus()}handleRippleBlur(){this.rippleHandlers.endFocus()}}t([o({type:Boolean,reflect:!0})],i.prototype,"disabled",void 0),t([o({type:String})],i.prototype,"icon",void 0),t([o({type:String})],i.prototype,"label",void 0),t([p("button")],i.prototype,"buttonElement",void 0),t([d("mwc-ripple")],i.prototype,"ripple",void 0),t([u()],i.prototype,"shouldRenderRipple",void 0),t([r({passive:!0})],i.prototype,"handleRippleMouseDown",null),t([r({passive:!0})],i.prototype,"handleRippleTouchStart",null);/**
+  </button>`}handleRippleMouseDown(e){const s=()=>{window.removeEventListener("mouseup",s),this.handleRippleDeactivate()};window.addEventListener("mouseup",s),this.rippleHandlers.startPress(e)}handleRippleTouchStart(e){this.rippleHandlers.startPress(e)}handleRippleDeactivate(){this.rippleHandlers.endPress()}handleRippleMouseEnter(){this.rippleHandlers.startHover()}handleRippleMouseLeave(){this.rippleHandlers.endHover()}handleRippleFocus(){this.rippleHandlers.startFocus()}handleRippleBlur(){this.rippleHandlers.endFocus()}}t([i({type:Boolean,reflect:!0})],o.prototype,"disabled",void 0),t([i({type:String})],o.prototype,"icon",void 0),t([i({type:String})],o.prototype,"label",void 0),t([a("button")],o.prototype,"buttonElement",void 0),t([d("mwc-ripple")],o.prototype,"ripple",void 0),t([u()],o.prototype,"shouldRenderRipple",void 0),t([r({passive:!0})],o.prototype,"handleRippleMouseDown",null),t([r({passive:!0})],o.prototype,"handleRippleTouchStart",null);/**
 @license
 Copyright 2018 Google Inc. All Rights Reserved.
 
@@ -49,4 +49,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-*/let n=class extends i{};n.styles=b,n=t([h("mwc-icon-button")],n);export{n as IconButton};
+*/let n=class extends o{};n.styles=b,n=t([m("mwc-icon-button")],n);export{n as IconButton};

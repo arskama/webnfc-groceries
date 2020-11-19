@@ -1,0 +1,842 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @material/mwc-button
+20 silly mapToRegistry name @material/mwc-button
+21 silly mapToRegistry scope (from package name) @material
+22 verbose mapToRegistry no registry URL found in name for scope @material
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-button
+26 silly fetchNamedPackageData @material/mwc-checkbox
+27 silly mapToRegistry name @material/mwc-checkbox
+28 silly mapToRegistry scope (from package name) @material
+29 verbose mapToRegistry no registry URL found in name for scope @material
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-checkbox
+33 silly fetchNamedPackageData @material/mwc-dialog
+34 silly mapToRegistry name @material/mwc-dialog
+35 silly mapToRegistry scope (from package name) @material
+36 verbose mapToRegistry no registry URL found in name for scope @material
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-dialog
+40 silly fetchNamedPackageData @material/mwc-drawer
+41 silly mapToRegistry name @material/mwc-drawer
+42 silly mapToRegistry scope (from package name) @material
+43 verbose mapToRegistry no registry URL found in name for scope @material
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-drawer
+47 silly fetchNamedPackageData @material/mwc-fab
+48 silly mapToRegistry name @material/mwc-fab
+49 silly mapToRegistry scope (from package name) @material
+50 verbose mapToRegistry no registry URL found in name for scope @material
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-fab
+54 silly fetchNamedPackageData @material/mwc-formfield
+55 silly mapToRegistry name @material/mwc-formfield
+56 silly mapToRegistry scope (from package name) @material
+57 verbose mapToRegistry no registry URL found in name for scope @material
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-formfield
+61 silly fetchNamedPackageData @material/mwc-icon-button
+62 silly mapToRegistry name @material/mwc-icon-button
+63 silly mapToRegistry scope (from package name) @material
+64 verbose mapToRegistry no registry URL found in name for scope @material
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-icon-button
+68 silly fetchNamedPackageData @material/mwc-icon-button-toggle
+69 silly mapToRegistry name @material/mwc-icon-button-toggle
+70 silly mapToRegistry scope (from package name) @material
+71 verbose mapToRegistry no registry URL found in name for scope @material
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-icon-button-toggle
+75 silly fetchNamedPackageData @material/mwc-ripple
+76 silly mapToRegistry name @material/mwc-ripple
+77 silly mapToRegistry scope (from package name) @material
+78 verbose mapToRegistry no registry URL found in name for scope @material
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-ripple
+82 silly fetchNamedPackageData @material/mwc-snackbar
+83 silly mapToRegistry name @material/mwc-snackbar
+84 silly mapToRegistry scope (from package name) @material
+85 verbose mapToRegistry no registry URL found in name for scope @material
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-snackbar
+89 silly fetchNamedPackageData @material/mwc-textfield
+90 silly mapToRegistry name @material/mwc-textfield
+91 silly mapToRegistry scope (from package name) @material
+92 verbose mapToRegistry no registry URL found in name for scope @material
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-textfield
+96 silly fetchNamedPackageData @material/mwc-top-app-bar
+97 silly mapToRegistry name @material/mwc-top-app-bar
+98 silly mapToRegistry scope (from package name) @material
+99 verbose mapToRegistry no registry URL found in name for scope @material
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-top-app-bar
+103 silly fetchNamedPackageData @snowpack/plugin-optimize
+104 silly mapToRegistry name @snowpack/plugin-optimize
+105 silly mapToRegistry scope (from package name) @snowpack
+106 verbose mapToRegistry no registry URL found in name for scope @snowpack
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/@snowpack%2fplugin-optimize
+110 silly fetchNamedPackageData kv-storage-polyfill
+111 silly mapToRegistry name kv-storage-polyfill
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/kv-storage-polyfill
+115 silly fetchNamedPackageData lit-element
+116 silly mapToRegistry name lit-element
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/lit-element
+120 silly fetchNamedPackageData workbox-build
+121 silly mapToRegistry name workbox-build
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry uri https://registry.npmjs.org/workbox-build
+125 silly fetchNamedPackageData workbox-window
+126 silly mapToRegistry name workbox-window
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/workbox-window
+130 verbose request uri https://registry.npmjs.org/@material%2fmwc-drawer
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 1:40:22 PM
+133 verbose request id 49a55537b8761d9c
+134 verbose etag W/"f86ef4a2f4227714e6a7b43483eea733"
+135 verbose lastModified Thu, 19 Nov 2020 11:30:12 GMT
+136 http request GET https://registry.npmjs.org/@material%2fmwc-drawer
+137 verbose request uri https://registry.npmjs.org/@material%2fmwc-fab
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 1:40:23 PM
+140 verbose etag W/"7fb47d283e42498adc84e575d520f7f0"
+141 verbose lastModified Thu, 19 Nov 2020 11:30:49 GMT
+142 http request GET https://registry.npmjs.org/@material%2fmwc-fab
+143 verbose request uri https://registry.npmjs.org/@material%2fmwc-button
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 1:40:23 PM
+146 verbose etag W/"57e0090b0072ece60f3c6c8e13c7ac56"
+147 verbose lastModified Thu, 19 Nov 2020 11:30:41 GMT
+148 http request GET https://registry.npmjs.org/@material%2fmwc-button
+149 verbose request uri https://registry.npmjs.org/@material%2fmwc-formfield
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 1:40:23 PM
+152 verbose etag W/"2d7084533130574b80145983856cc6bd"
+153 verbose lastModified Thu, 19 Nov 2020 11:30:16 GMT
+154 http request GET https://registry.npmjs.org/@material%2fmwc-formfield
+155 verbose request uri https://registry.npmjs.org/@material%2fmwc-icon-button
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 1:40:23 PM
+158 verbose etag W/"e2693be55e7aaa3456b9d46070437eb8"
+159 verbose lastModified Thu, 19 Nov 2020 11:30:51 GMT
+160 http request GET https://registry.npmjs.org/@material%2fmwc-icon-button
+161 verbose request uri https://registry.npmjs.org/@material%2fmwc-dialog
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 1:40:23 PM
+164 verbose etag W/"615b6c56498616b77d7d3e49296c7907"
+165 verbose lastModified Thu, 19 Nov 2020 11:31:06 GMT
+166 http request GET https://registry.npmjs.org/@material%2fmwc-dialog
+167 verbose request uri https://registry.npmjs.org/@material%2fmwc-icon-button-toggle
+168 verbose request no auth needed
+169 info attempt registry request try #1 at 1:40:23 PM
+170 verbose etag W/"6ff177eaad35a9103f5045d468c5f72d"
+171 verbose lastModified Thu, 19 Nov 2020 11:31:11 GMT
+172 http request GET https://registry.npmjs.org/@material%2fmwc-icon-button-toggle
+173 verbose request uri https://registry.npmjs.org/@material%2fmwc-ripple
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 1:40:23 PM
+176 verbose etag W/"6c2f5c86675de62fcbc356f34ae1fbfc"
+177 verbose lastModified Thu, 19 Nov 2020 11:30:21 GMT
+178 http request GET https://registry.npmjs.org/@material%2fmwc-ripple
+179 verbose request uri https://registry.npmjs.org/@material%2fmwc-snackbar
+180 verbose request no auth needed
+181 info attempt registry request try #1 at 1:40:23 PM
+182 verbose etag W/"f567cbf4ce52df7a311b25595507f264"
+183 verbose lastModified Thu, 19 Nov 2020 11:30:26 GMT
+184 http request GET https://registry.npmjs.org/@material%2fmwc-snackbar
+185 verbose request uri https://registry.npmjs.org/@snowpack%2fplugin-optimize
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 1:40:23 PM
+188 verbose etag W/"730bc07b76b230dad9cca6ecec8521fe"
+189 verbose lastModified Wed, 11 Nov 2020 05:29:48 GMT
+190 http request GET https://registry.npmjs.org/@snowpack%2fplugin-optimize
+191 verbose request uri https://registry.npmjs.org/kv-storage-polyfill
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 1:40:23 PM
+194 verbose etag W/"67a6848020b024e6883bfbfc19cd598c"
+195 verbose lastModified Tue, 13 Aug 2019 15:15:24 GMT
+196 http request GET https://registry.npmjs.org/kv-storage-polyfill
+197 verbose request uri https://registry.npmjs.org/@material%2fmwc-checkbox
+198 verbose request no auth needed
+199 info attempt registry request try #1 at 1:40:23 PM
+200 verbose etag W/"01e1a071b0a79efec3e94e2e7f47166d"
+201 verbose lastModified Thu, 19 Nov 2020 11:30:47 GMT
+202 http request GET https://registry.npmjs.org/@material%2fmwc-checkbox
+203 verbose request uri https://registry.npmjs.org/lit-element
+204 verbose request no auth needed
+205 info attempt registry request try #1 at 1:40:23 PM
+206 verbose etag W/"60d94143b862f8723a933e76dabaf87f"
+207 verbose lastModified Tue, 22 Sep 2020 22:13:28 GMT
+208 http request GET https://registry.npmjs.org/lit-element
+209 verbose request uri https://registry.npmjs.org/workbox-window
+210 verbose request no auth needed
+211 info attempt registry request try #1 at 1:40:23 PM
+212 verbose etag W/"eefa9ff1ca73ca49cb7033c8a3ad7205"
+213 verbose lastModified Mon, 16 Nov 2020 16:53:46 GMT
+214 http request GET https://registry.npmjs.org/workbox-window
+215 verbose request uri https://registry.npmjs.org/workbox-build
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 1:40:23 PM
+218 verbose etag W/"b96cc3a0ee9a95f574707eb8cc9a3241"
+219 verbose lastModified Mon, 16 Nov 2020 16:53:31 GMT
+220 http request GET https://registry.npmjs.org/workbox-build
+221 verbose request uri https://registry.npmjs.org/@material%2fmwc-top-app-bar
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 1:40:23 PM
+224 verbose etag W/"19652de01aed73a98ef80aa1a0f4e53e"
+225 verbose lastModified Thu, 19 Nov 2020 11:30:35 GMT
+226 http request GET https://registry.npmjs.org/@material%2fmwc-top-app-bar
+227 verbose request uri https://registry.npmjs.org/@material%2fmwc-textfield
+228 verbose request no auth needed
+229 info attempt registry request try #1 at 1:40:23 PM
+230 verbose etag W/"4a60f6ac4e65e228d3f6cd9f4669fb62"
+231 verbose lastModified Thu, 19 Nov 2020 11:30:44 GMT
+232 http request GET https://registry.npmjs.org/@material%2fmwc-textfield
+233 http 304 https://registry.npmjs.org/@material%2fmwc-fab
+234 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+234 verbose headers   connection: 'close',
+234 verbose headers   'set-cookie':
+234 verbose headers    [ '__cfduid=d4938f2da8a5ab63c072072bd8cf98d7d1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+234 verbose headers   'cf-ray': '5f49a7f72afa178a-FRA',
+234 verbose headers   age: '37',
+234 verbose headers   'cache-control': 'public, max-age=300',
+234 verbose headers   etag: '"7fb47d283e42498adc84e575d520f7f0"',
+234 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:49 GMT',
+234 verbose headers   vary: 'Accept-Encoding',
+234 verbose headers   'cf-cache-status': 'HIT',
+234 verbose headers   'cf-request-id': '0681e74e750000178a51b24000000001',
+234 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+234 verbose headers   server: 'cloudflare' }
+235 silly get cb [ 304,
+235 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+235 silly get     connection: 'close',
+235 silly get     'set-cookie':
+235 silly get      [ '__cfduid=d4938f2da8a5ab63c072072bd8cf98d7d1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+235 silly get     'cf-ray': '5f49a7f72afa178a-FRA',
+235 silly get     age: '37',
+235 silly get     'cache-control': 'public, max-age=300',
+235 silly get     etag: '"7fb47d283e42498adc84e575d520f7f0"',
+235 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:49 GMT',
+235 silly get     vary: 'Accept-Encoding',
+235 silly get     'cf-cache-status': 'HIT',
+235 silly get     'cf-request-id': '0681e74e750000178a51b24000000001',
+235 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+235 silly get     server: 'cloudflare' } ]
+236 verbose etag https://registry.npmjs.org/@material%2fmwc-fab from cache
+237 verbose get saving @material/mwc-fab to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-fab/.cache.json
+238 http 304 https://registry.npmjs.org/@material%2fmwc-button
+239 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+239 verbose headers   connection: 'close',
+239 verbose headers   'set-cookie':
+239 verbose headers    [ '__cfduid=d7633bb5ac6e4053761dbd22ab84cee991605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+239 verbose headers   'cf-ray': '5f49a7f73b6d0629-FRA',
+239 verbose headers   age: '38',
+239 verbose headers   'cache-control': 'public, max-age=300',
+239 verbose headers   etag: '"57e0090b0072ece60f3c6c8e13c7ac56"',
+239 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:41 GMT',
+239 verbose headers   vary: 'Accept-Encoding',
+239 verbose headers   'cf-cache-status': 'HIT',
+239 verbose headers   'cf-request-id': '0681e74e89000006292cb27000000001',
+239 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+239 verbose headers   server: 'cloudflare' }
+240 silly get cb [ 304,
+240 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+240 silly get     connection: 'close',
+240 silly get     'set-cookie':
+240 silly get      [ '__cfduid=d7633bb5ac6e4053761dbd22ab84cee991605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+240 silly get     'cf-ray': '5f49a7f73b6d0629-FRA',
+240 silly get     age: '38',
+240 silly get     'cache-control': 'public, max-age=300',
+240 silly get     etag: '"57e0090b0072ece60f3c6c8e13c7ac56"',
+240 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:41 GMT',
+240 silly get     vary: 'Accept-Encoding',
+240 silly get     'cf-cache-status': 'HIT',
+240 silly get     'cf-request-id': '0681e74e89000006292cb27000000001',
+240 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+240 silly get     server: 'cloudflare' } ]
+241 verbose etag https://registry.npmjs.org/@material%2fmwc-button from cache
+242 verbose get saving @material/mwc-button to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-button/.cache.json
+243 http 304 https://registry.npmjs.org/@material%2fmwc-formfield
+244 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+244 verbose headers   connection: 'close',
+244 verbose headers   'set-cookie':
+244 verbose headers    [ '__cfduid=db3c78a3c4a597d619ef174e06abed50e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+244 verbose headers   'cf-ray': '5f49a7f73cca9808-FRA',
+244 verbose headers   age: '37',
+244 verbose headers   'cache-control': 'public, max-age=300',
+244 verbose headers   etag: '"2d7084533130574b80145983856cc6bd"',
+244 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:16 GMT',
+244 verbose headers   vary: 'Accept-Encoding',
+244 verbose headers   'cf-cache-status': 'HIT',
+244 verbose headers   'cf-request-id': '0681e74e8400009808a7329000000001',
+244 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+244 verbose headers   server: 'cloudflare' }
+245 silly get cb [ 304,
+245 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+245 silly get     connection: 'close',
+245 silly get     'set-cookie':
+245 silly get      [ '__cfduid=db3c78a3c4a597d619ef174e06abed50e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+245 silly get     'cf-ray': '5f49a7f73cca9808-FRA',
+245 silly get     age: '37',
+245 silly get     'cache-control': 'public, max-age=300',
+245 silly get     etag: '"2d7084533130574b80145983856cc6bd"',
+245 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:16 GMT',
+245 silly get     vary: 'Accept-Encoding',
+245 silly get     'cf-cache-status': 'HIT',
+245 silly get     'cf-request-id': '0681e74e8400009808a7329000000001',
+245 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+245 silly get     server: 'cloudflare' } ]
+246 verbose etag https://registry.npmjs.org/@material%2fmwc-formfield from cache
+247 verbose get saving @material/mwc-formfield to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-formfield/.cache.json
+248 http 304 https://registry.npmjs.org/@material%2fmwc-icon-button
+249 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+249 verbose headers   connection: 'close',
+249 verbose headers   'set-cookie':
+249 verbose headers    [ '__cfduid=d2822ff6d91413f090f5755904e8a0a2e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+249 verbose headers   'cf-ray': '5f49a7f7499b05bb-FRA',
+249 verbose headers   age: '38',
+249 verbose headers   'cache-control': 'public, max-age=300',
+249 verbose headers   etag: '"e2693be55e7aaa3456b9d46070437eb8"',
+249 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:51 GMT',
+249 verbose headers   vary: 'Accept-Encoding',
+249 verbose headers   'cf-cache-status': 'HIT',
+249 verbose headers   'cf-request-id': '0681e74e90000005bb97baa000000001',
+249 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+249 verbose headers   server: 'cloudflare' }
+250 silly get cb [ 304,
+250 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+250 silly get     connection: 'close',
+250 silly get     'set-cookie':
+250 silly get      [ '__cfduid=d2822ff6d91413f090f5755904e8a0a2e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+250 silly get     'cf-ray': '5f49a7f7499b05bb-FRA',
+250 silly get     age: '38',
+250 silly get     'cache-control': 'public, max-age=300',
+250 silly get     etag: '"e2693be55e7aaa3456b9d46070437eb8"',
+250 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:51 GMT',
+250 silly get     vary: 'Accept-Encoding',
+250 silly get     'cf-cache-status': 'HIT',
+250 silly get     'cf-request-id': '0681e74e90000005bb97baa000000001',
+250 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+250 silly get     server: 'cloudflare' } ]
+251 verbose etag https://registry.npmjs.org/@material%2fmwc-icon-button from cache
+252 verbose get saving @material/mwc-icon-button to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-icon-button/.cache.json
+253 http 304 https://registry.npmjs.org/lit-element
+254 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+254 verbose headers   connection: 'close',
+254 verbose headers   'set-cookie':
+254 verbose headers    [ '__cfduid=d5887bdf2f752505cebf0e7d6578c12df1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+254 verbose headers   'cf-ray': '5f49a7f77b29dfc3-FRA',
+254 verbose headers   age: '4526',
+254 verbose headers   'cache-control': 'public, max-age=300',
+254 verbose headers   etag: '"60d94143b862f8723a933e76dabaf87f"',
+254 verbose headers   'last-modified': 'Tue, 22 Sep 2020 22:13:28 GMT',
+254 verbose headers   vary: 'Accept-Encoding',
+254 verbose headers   'cf-cache-status': 'HIT',
+254 verbose headers   'cf-request-id': '0681e74eac0000dfc323870000000001',
+254 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+254 verbose headers   server: 'cloudflare' }
+255 silly get cb [ 304,
+255 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+255 silly get     connection: 'close',
+255 silly get     'set-cookie':
+255 silly get      [ '__cfduid=d5887bdf2f752505cebf0e7d6578c12df1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+255 silly get     'cf-ray': '5f49a7f77b29dfc3-FRA',
+255 silly get     age: '4526',
+255 silly get     'cache-control': 'public, max-age=300',
+255 silly get     etag: '"60d94143b862f8723a933e76dabaf87f"',
+255 silly get     'last-modified': 'Tue, 22 Sep 2020 22:13:28 GMT',
+255 silly get     vary: 'Accept-Encoding',
+255 silly get     'cf-cache-status': 'HIT',
+255 silly get     'cf-request-id': '0681e74eac0000dfc323870000000001',
+255 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+255 silly get     server: 'cloudflare' } ]
+256 verbose etag https://registry.npmjs.org/lit-element from cache
+257 verbose get saving lit-element to /home/amandy/.npm/registry.npmjs.org/lit-element/.cache.json
+258 http 304 https://registry.npmjs.org/workbox-window
+259 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+259 verbose headers   connection: 'close',
+259 verbose headers   'set-cookie':
+259 verbose headers    [ '__cfduid=d3fe15cd4d48331c0a50ca7bb46a33e781605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+259 verbose headers   'cf-ray': '5f49a7f778fa6455-FRA',
+259 verbose headers   age: '6033',
+259 verbose headers   'cache-control': 'public, max-age=300',
+259 verbose headers   etag: '"eefa9ff1ca73ca49cb7033c8a3ad7205"',
+259 verbose headers   'last-modified': 'Mon, 16 Nov 2020 16:53:46 GMT',
+259 verbose headers   vary: 'Accept-Encoding',
+259 verbose headers   'cf-cache-status': 'HIT',
+259 verbose headers   'cf-request-id': '0681e74ead0000645582836000000001',
+259 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+259 verbose headers   server: 'cloudflare' }
+260 silly get cb [ 304,
+260 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+260 silly get     connection: 'close',
+260 silly get     'set-cookie':
+260 silly get      [ '__cfduid=d3fe15cd4d48331c0a50ca7bb46a33e781605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+260 silly get     'cf-ray': '5f49a7f778fa6455-FRA',
+260 silly get     age: '6033',
+260 silly get     'cache-control': 'public, max-age=300',
+260 silly get     etag: '"eefa9ff1ca73ca49cb7033c8a3ad7205"',
+260 silly get     'last-modified': 'Mon, 16 Nov 2020 16:53:46 GMT',
+260 silly get     vary: 'Accept-Encoding',
+260 silly get     'cf-cache-status': 'HIT',
+260 silly get     'cf-request-id': '0681e74ead0000645582836000000001',
+260 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+260 silly get     server: 'cloudflare' } ]
+261 verbose etag https://registry.npmjs.org/workbox-window from cache
+262 verbose get saving workbox-window to /home/amandy/.npm/registry.npmjs.org/workbox-window/.cache.json
+263 http 304 https://registry.npmjs.org/@material%2fmwc-drawer
+264 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+264 verbose headers   connection: 'close',
+264 verbose headers   'set-cookie':
+264 verbose headers    [ '__cfduid=d2bca53813448aea47ce6d9ed9693ae471605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+264 verbose headers   'cf-ray': '5f49a7f74f8fc2a4-FRA',
+264 verbose headers   age: '38',
+264 verbose headers   'cache-control': 'public, max-age=300',
+264 verbose headers   etag: '"f86ef4a2f4227714e6a7b43483eea733"',
+264 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:12 GMT',
+264 verbose headers   vary: 'Accept-Encoding',
+264 verbose headers   'cf-cache-status': 'HIT',
+264 verbose headers   'cf-request-id': '0681e74e8d0000c2a4f4bc0000000001',
+264 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+264 verbose headers   server: 'cloudflare' }
+265 silly get cb [ 304,
+265 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+265 silly get     connection: 'close',
+265 silly get     'set-cookie':
+265 silly get      [ '__cfduid=d2bca53813448aea47ce6d9ed9693ae471605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+265 silly get     'cf-ray': '5f49a7f74f8fc2a4-FRA',
+265 silly get     age: '38',
+265 silly get     'cache-control': 'public, max-age=300',
+265 silly get     etag: '"f86ef4a2f4227714e6a7b43483eea733"',
+265 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:12 GMT',
+265 silly get     vary: 'Accept-Encoding',
+265 silly get     'cf-cache-status': 'HIT',
+265 silly get     'cf-request-id': '0681e74e8d0000c2a4f4bc0000000001',
+265 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+265 silly get     server: 'cloudflare' } ]
+266 verbose etag https://registry.npmjs.org/@material%2fmwc-drawer from cache
+267 verbose get saving @material/mwc-drawer to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-drawer/.cache.json
+268 http 304 https://registry.npmjs.org/kv-storage-polyfill
+269 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+269 verbose headers   connection: 'close',
+269 verbose headers   'set-cookie':
+269 verbose headers    [ '__cfduid=d5b72c5ca4e7427e16ea744fc88abfddb1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+269 verbose headers   'cf-ray': '5f49a7f77af263d7-FRA',
+269 verbose headers   age: '1012',
+269 verbose headers   'cache-control': 'public, max-age=300',
+269 verbose headers   etag: '"67a6848020b024e6883bfbfc19cd598c"',
+269 verbose headers   'last-modified': 'Tue, 13 Aug 2019 15:15:24 GMT',
+269 verbose headers   vary: 'Accept-Encoding',
+269 verbose headers   'cf-cache-status': 'HIT',
+269 verbose headers   'cf-request-id': '0681e74eac000063d783a85000000001',
+269 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+269 verbose headers   server: 'cloudflare' }
+270 silly get cb [ 304,
+270 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+270 silly get     connection: 'close',
+270 silly get     'set-cookie':
+270 silly get      [ '__cfduid=d5b72c5ca4e7427e16ea744fc88abfddb1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+270 silly get     'cf-ray': '5f49a7f77af263d7-FRA',
+270 silly get     age: '1012',
+270 silly get     'cache-control': 'public, max-age=300',
+270 silly get     etag: '"67a6848020b024e6883bfbfc19cd598c"',
+270 silly get     'last-modified': 'Tue, 13 Aug 2019 15:15:24 GMT',
+270 silly get     vary: 'Accept-Encoding',
+270 silly get     'cf-cache-status': 'HIT',
+270 silly get     'cf-request-id': '0681e74eac000063d783a85000000001',
+270 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+270 silly get     server: 'cloudflare' } ]
+271 verbose etag https://registry.npmjs.org/kv-storage-polyfill from cache
+272 verbose get saving kv-storage-polyfill to /home/amandy/.npm/registry.npmjs.org/kv-storage-polyfill/.cache.json
+273 http 304 https://registry.npmjs.org/@material%2fmwc-icon-button-toggle
+274 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+274 verbose headers   connection: 'close',
+274 verbose headers   'set-cookie':
+274 verbose headers    [ '__cfduid=d2822ff6d91413f090f5755904e8a0a2e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+274 verbose headers   'cf-ray': '5f49a7f77a2605bb-FRA',
+274 verbose headers   age: '37',
+274 verbose headers   'cache-control': 'public, max-age=300',
+274 verbose headers   etag: '"6ff177eaad35a9103f5045d468c5f72d"',
+274 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:31:11 GMT',
+274 verbose headers   vary: 'Accept-Encoding',
+274 verbose headers   'cf-cache-status': 'HIT',
+274 verbose headers   'cf-request-id': '0681e74eaa000005bb0a390000000001',
+274 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+274 verbose headers   server: 'cloudflare' }
+275 silly get cb [ 304,
+275 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+275 silly get     connection: 'close',
+275 silly get     'set-cookie':
+275 silly get      [ '__cfduid=d2822ff6d91413f090f5755904e8a0a2e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+275 silly get     'cf-ray': '5f49a7f77a2605bb-FRA',
+275 silly get     age: '37',
+275 silly get     'cache-control': 'public, max-age=300',
+275 silly get     etag: '"6ff177eaad35a9103f5045d468c5f72d"',
+275 silly get     'last-modified': 'Thu, 19 Nov 2020 11:31:11 GMT',
+275 silly get     vary: 'Accept-Encoding',
+275 silly get     'cf-cache-status': 'HIT',
+275 silly get     'cf-request-id': '0681e74eaa000005bb0a390000000001',
+275 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+275 silly get     server: 'cloudflare' } ]
+276 verbose etag https://registry.npmjs.org/@material%2fmwc-icon-button-toggle from cache
+277 verbose get saving @material/mwc-icon-button-toggle to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-icon-button-toggle/.cache.json
+278 http 304 https://registry.npmjs.org/@material%2fmwc-snackbar
+279 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+279 verbose headers   connection: 'close',
+279 verbose headers   'set-cookie':
+279 verbose headers    [ '__cfduid=d5c4c7ef0413fff8227e132a7c4336aa81605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+279 verbose headers   'cf-ray': '5f49a7f77fb605f1-FRA',
+279 verbose headers   age: '38',
+279 verbose headers   'cache-control': 'public, max-age=300',
+279 verbose headers   etag: '"f567cbf4ce52df7a311b25595507f264"',
+279 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:26 GMT',
+279 verbose headers   vary: 'Accept-Encoding',
+279 verbose headers   'cf-cache-status': 'HIT',
+279 verbose headers   'cf-request-id': '0681e74ead000005f1ac94b000000001',
+279 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+279 verbose headers   server: 'cloudflare' }
+280 silly get cb [ 304,
+280 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+280 silly get     connection: 'close',
+280 silly get     'set-cookie':
+280 silly get      [ '__cfduid=d5c4c7ef0413fff8227e132a7c4336aa81605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+280 silly get     'cf-ray': '5f49a7f77fb605f1-FRA',
+280 silly get     age: '38',
+280 silly get     'cache-control': 'public, max-age=300',
+280 silly get     etag: '"f567cbf4ce52df7a311b25595507f264"',
+280 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:26 GMT',
+280 silly get     vary: 'Accept-Encoding',
+280 silly get     'cf-cache-status': 'HIT',
+280 silly get     'cf-request-id': '0681e74ead000005f1ac94b000000001',
+280 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+280 silly get     server: 'cloudflare' } ]
+281 verbose etag https://registry.npmjs.org/@material%2fmwc-snackbar from cache
+282 verbose get saving @material/mwc-snackbar to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-snackbar/.cache.json
+283 http 304 https://registry.npmjs.org/@material%2fmwc-top-app-bar
+284 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+284 verbose headers   connection: 'close',
+284 verbose headers   'set-cookie':
+284 verbose headers    [ '__cfduid=d52e8c89b218bf60aa691d7a652060c9c1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+284 verbose headers   'cf-ray': '5f49a7f7793a9ac2-FRA',
+284 verbose headers   age: '38',
+284 verbose headers   'cache-control': 'public, max-age=300',
+284 verbose headers   etag: '"19652de01aed73a98ef80aa1a0f4e53e"',
+284 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:35 GMT',
+284 verbose headers   vary: 'Accept-Encoding',
+284 verbose headers   'cf-cache-status': 'HIT',
+284 verbose headers   'cf-request-id': '0681e74eaf00009ac2013ff000000001',
+284 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+284 verbose headers   server: 'cloudflare' }
+285 silly get cb [ 304,
+285 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+285 silly get     connection: 'close',
+285 silly get     'set-cookie':
+285 silly get      [ '__cfduid=d52e8c89b218bf60aa691d7a652060c9c1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+285 silly get     'cf-ray': '5f49a7f7793a9ac2-FRA',
+285 silly get     age: '38',
+285 silly get     'cache-control': 'public, max-age=300',
+285 silly get     etag: '"19652de01aed73a98ef80aa1a0f4e53e"',
+285 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:35 GMT',
+285 silly get     vary: 'Accept-Encoding',
+285 silly get     'cf-cache-status': 'HIT',
+285 silly get     'cf-request-id': '0681e74eaf00009ac2013ff000000001',
+285 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+285 silly get     server: 'cloudflare' } ]
+286 verbose etag https://registry.npmjs.org/@material%2fmwc-top-app-bar from cache
+287 verbose get saving @material/mwc-top-app-bar to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-top-app-bar/.cache.json
+288 http 304 https://registry.npmjs.org/@material%2fmwc-checkbox
+289 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+289 verbose headers   connection: 'close',
+289 verbose headers   'set-cookie':
+289 verbose headers    [ '__cfduid=dad31c1b85f27c804c2e20653445b10571605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+289 verbose headers   'cf-ray': '5f49a7f77cf72c2e-FRA',
+289 verbose headers   age: '37',
+289 verbose headers   'cache-control': 'public, max-age=300',
+289 verbose headers   etag: '"01e1a071b0a79efec3e94e2e7f47166d"',
+289 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:47 GMT',
+289 verbose headers   vary: 'Accept-Encoding',
+289 verbose headers   'cf-cache-status': 'HIT',
+289 verbose headers   'cf-request-id': '0681e74eae00002c2e522a2000000001',
+289 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+289 verbose headers   server: 'cloudflare' }
+290 silly get cb [ 304,
+290 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+290 silly get     connection: 'close',
+290 silly get     'set-cookie':
+290 silly get      [ '__cfduid=dad31c1b85f27c804c2e20653445b10571605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+290 silly get     'cf-ray': '5f49a7f77cf72c2e-FRA',
+290 silly get     age: '37',
+290 silly get     'cache-control': 'public, max-age=300',
+290 silly get     etag: '"01e1a071b0a79efec3e94e2e7f47166d"',
+290 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:47 GMT',
+290 silly get     vary: 'Accept-Encoding',
+290 silly get     'cf-cache-status': 'HIT',
+290 silly get     'cf-request-id': '0681e74eae00002c2e522a2000000001',
+290 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+290 silly get     server: 'cloudflare' } ]
+291 verbose etag https://registry.npmjs.org/@material%2fmwc-checkbox from cache
+292 verbose get saving @material/mwc-checkbox to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-checkbox/.cache.json
+293 http 304 https://registry.npmjs.org/@material%2fmwc-dialog
+294 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+294 verbose headers   connection: 'close',
+294 verbose headers   'set-cookie':
+294 verbose headers    [ '__cfduid=d2cf1cb288b20b40bc44c3feef7c5081f1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+294 verbose headers   'cf-ray': '5f49a7f77975c2ea-FRA',
+294 verbose headers   age: '38',
+294 verbose headers   'cache-control': 'public, max-age=300',
+294 verbose headers   etag: '"615b6c56498616b77d7d3e49296c7907"',
+294 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:31:06 GMT',
+294 verbose headers   vary: 'Accept-Encoding',
+294 verbose headers   'cf-cache-status': 'HIT',
+294 verbose headers   'cf-request-id': '0681e74eaa0000c2ea3c0d8000000001',
+294 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+294 verbose headers   server: 'cloudflare' }
+295 silly get cb [ 304,
+295 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+295 silly get     connection: 'close',
+295 silly get     'set-cookie':
+295 silly get      [ '__cfduid=d2cf1cb288b20b40bc44c3feef7c5081f1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+295 silly get     'cf-ray': '5f49a7f77975c2ea-FRA',
+295 silly get     age: '38',
+295 silly get     'cache-control': 'public, max-age=300',
+295 silly get     etag: '"615b6c56498616b77d7d3e49296c7907"',
+295 silly get     'last-modified': 'Thu, 19 Nov 2020 11:31:06 GMT',
+295 silly get     vary: 'Accept-Encoding',
+295 silly get     'cf-cache-status': 'HIT',
+295 silly get     'cf-request-id': '0681e74eaa0000c2ea3c0d8000000001',
+295 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+295 silly get     server: 'cloudflare' } ]
+296 verbose etag https://registry.npmjs.org/@material%2fmwc-dialog from cache
+297 verbose get saving @material/mwc-dialog to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-dialog/.cache.json
+298 http 304 https://registry.npmjs.org/@material%2fmwc-ripple
+299 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+299 verbose headers   connection: 'close',
+299 verbose headers   'set-cookie':
+299 verbose headers    [ '__cfduid=d4c5744a98a5b862e43b32ab8cc5209eb1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+299 verbose headers   'cf-ray': '5f49a7f77dc32b89-FRA',
+299 verbose headers   age: '38',
+299 verbose headers   'cache-control': 'public, max-age=300',
+299 verbose headers   etag: '"6c2f5c86675de62fcbc356f34ae1fbfc"',
+299 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:21 GMT',
+299 verbose headers   vary: 'Accept-Encoding',
+299 verbose headers   'cf-cache-status': 'HIT',
+299 verbose headers   'cf-request-id': '0681e74ead00002b8974bed000000001',
+299 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+299 verbose headers   server: 'cloudflare' }
+300 silly get cb [ 304,
+300 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+300 silly get     connection: 'close',
+300 silly get     'set-cookie':
+300 silly get      [ '__cfduid=d4c5744a98a5b862e43b32ab8cc5209eb1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+300 silly get     'cf-ray': '5f49a7f77dc32b89-FRA',
+300 silly get     age: '38',
+300 silly get     'cache-control': 'public, max-age=300',
+300 silly get     etag: '"6c2f5c86675de62fcbc356f34ae1fbfc"',
+300 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:21 GMT',
+300 silly get     vary: 'Accept-Encoding',
+300 silly get     'cf-cache-status': 'HIT',
+300 silly get     'cf-request-id': '0681e74ead00002b8974bed000000001',
+300 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+300 silly get     server: 'cloudflare' } ]
+301 verbose etag https://registry.npmjs.org/@material%2fmwc-ripple from cache
+302 verbose get saving @material/mwc-ripple to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-ripple/.cache.json
+303 http 304 https://registry.npmjs.org/@snowpack%2fplugin-optimize
+304 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+304 verbose headers   connection: 'close',
+304 verbose headers   'set-cookie':
+304 verbose headers    [ '__cfduid=df078031fa7240ca9dfc6656bb74cf2a31605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+304 verbose headers   'cf-ray': '5f49a7f77aee97f6-FRA',
+304 verbose headers   age: '37',
+304 verbose headers   'cache-control': 'public, max-age=300',
+304 verbose headers   etag: '"730bc07b76b230dad9cca6ecec8521fe"',
+304 verbose headers   'last-modified': 'Wed, 11 Nov 2020 05:29:48 GMT',
+304 verbose headers   vary: 'Accept-Encoding',
+304 verbose headers   'cf-cache-status': 'HIT',
+304 verbose headers   'cf-request-id': '0681e74eaa000097f66c177000000001',
+304 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+304 verbose headers   server: 'cloudflare' }
+305 silly get cb [ 304,
+305 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+305 silly get     connection: 'close',
+305 silly get     'set-cookie':
+305 silly get      [ '__cfduid=df078031fa7240ca9dfc6656bb74cf2a31605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+305 silly get     'cf-ray': '5f49a7f77aee97f6-FRA',
+305 silly get     age: '37',
+305 silly get     'cache-control': 'public, max-age=300',
+305 silly get     etag: '"730bc07b76b230dad9cca6ecec8521fe"',
+305 silly get     'last-modified': 'Wed, 11 Nov 2020 05:29:48 GMT',
+305 silly get     vary: 'Accept-Encoding',
+305 silly get     'cf-cache-status': 'HIT',
+305 silly get     'cf-request-id': '0681e74eaa000097f66c177000000001',
+305 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+305 silly get     server: 'cloudflare' } ]
+306 verbose etag https://registry.npmjs.org/@snowpack%2fplugin-optimize from cache
+307 verbose get saving @snowpack/plugin-optimize to /home/amandy/.npm/registry.npmjs.org/_40snowpack_252fplugin-optimize/.cache.json
+308 http 304 https://registry.npmjs.org/@material%2fmwc-textfield
+309 verbose headers { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+309 verbose headers   connection: 'close',
+309 verbose headers   'set-cookie':
+309 verbose headers    [ '__cfduid=d11f2da917a04f080e94245dc77257c1e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+309 verbose headers   'cf-ray': '5f49a7f77d832b29-FRA',
+309 verbose headers   age: '37',
+309 verbose headers   'cache-control': 'public, max-age=300',
+309 verbose headers   etag: '"4a60f6ac4e65e228d3f6cd9f4669fb62"',
+309 verbose headers   'last-modified': 'Thu, 19 Nov 2020 11:30:44 GMT',
+309 verbose headers   vary: 'Accept-Encoding',
+309 verbose headers   'cf-cache-status': 'HIT',
+309 verbose headers   'cf-request-id': '0681e74eb000002b29109c5000000001',
+309 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+309 verbose headers   server: 'cloudflare' }
+310 silly get cb [ 304,
+310 silly get   { date: 'Thu, 19 Nov 2020 11:40:23 GMT',
+310 silly get     connection: 'close',
+310 silly get     'set-cookie':
+310 silly get      [ '__cfduid=d11f2da917a04f080e94245dc77257c1e1605786023; expires=Sat, 19-Dec-20 11:40:23 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+310 silly get     'cf-ray': '5f49a7f77d832b29-FRA',
+310 silly get     age: '37',
+310 silly get     'cache-control': 'public, max-age=300',
+310 silly get     etag: '"4a60f6ac4e65e228d3f6cd9f4669fb62"',
+310 silly get     'last-modified': 'Thu, 19 Nov 2020 11:30:44 GMT',
+310 silly get     vary: 'Accept-Encoding',
+310 silly get     'cf-cache-status': 'HIT',
+310 silly get     'cf-request-id': '0681e74eb000002b29109c5000000001',
+310 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+310 silly get     server: 'cloudflare' } ]
+311 verbose etag https://registry.npmjs.org/@material%2fmwc-textfield from cache
+312 verbose get saving @material/mwc-textfield to /home/amandy/.npm/registry.npmjs.org/_40material_252fmwc-textfield/.cache.json
+313 silly resolveWithNewModule @material/mwc-fab@0.19.1 checking installable status
+314 silly cache add args [ '@material/mwc-fab@^0.19.1', null ]
+315 verbose cache add spec @material/mwc-fab@^0.19.1
+316 silly cache add parsed spec Result {
+316 silly cache add   raw: '@material/mwc-fab@^0.19.1',
+316 silly cache add   scope: '@material',
+316 silly cache add   name: '@material/mwc-fab',
+316 silly cache add   rawSpec: '^0.19.1',
+316 silly cache add   spec: '>=0.19.1 <0.20.0',
+316 silly cache add   type: 'range' }
+317 silly addNamed @material/mwc-fab@>=0.19.1 <0.20.0
+318 verbose addNamed ">=0.19.1 <0.20.0" is a valid semver range for @material/mwc-fab
+319 silly addNameRange { name: '@material/mwc-fab',
+319 silly addNameRange   range: '>=0.19.1 <0.20.0',
+319 silly addNameRange   hasData: false }
+320 silly mapToRegistry name @material/mwc-fab
+321 silly mapToRegistry scope (from package name) @material
+322 verbose mapToRegistry no registry URL found in name for scope @material
+323 silly mapToRegistry using default registry
+324 silly mapToRegistry registry https://registry.npmjs.org/
+325 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-fab
+326 verbose addNameRange registry:https://registry.npmjs.org/@material%2fmwc-fab not in flight; fetching
+327 silly resolveWithNewModule @material/mwc-formfield@0.19.1 checking installable status
+328 silly cache add args [ '@material/mwc-formfield@^0.19.1', null ]
+329 verbose cache add spec @material/mwc-formfield@^0.19.1
+330 silly cache add parsed spec Result {
+330 silly cache add   raw: '@material/mwc-formfield@^0.19.1',
+330 silly cache add   scope: '@material',
+330 silly cache add   name: '@material/mwc-formfield',
+330 silly cache add   rawSpec: '^0.19.1',
+330 silly cache add   spec: '>=0.19.1 <0.20.0',
+330 silly cache add   type: 'range' }
+331 silly addNamed @material/mwc-formfield@>=0.19.1 <0.20.0
+332 verbose addNamed ">=0.19.1 <0.20.0" is a valid semver range for @material/mwc-formfield
+333 silly addNameRange { name: '@material/mwc-formfield',
+333 silly addNameRange   range: '>=0.19.1 <0.20.0',
+333 silly addNameRange   hasData: false }
+334 silly mapToRegistry name @material/mwc-formfield
+335 silly mapToRegistry scope (from package name) @material
+336 verbose mapToRegistry no registry URL found in name for scope @material
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npmjs.org/
+339 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-formfield
+340 verbose addNameRange registry:https://registry.npmjs.org/@material%2fmwc-formfield not in flight; fetching
+341 silly resolveWithNewModule @material/mwc-button@0.19.1 checking installable status
+342 silly cache add args [ '@material/mwc-button@^0.19.1', null ]
+343 verbose cache add spec @material/mwc-button@^0.19.1
+344 silly cache add parsed spec Result {
+344 silly cache add   raw: '@material/mwc-button@^0.19.1',
+344 silly cache add   scope: '@material',
+344 silly cache add   name: '@material/mwc-button',
+344 silly cache add   rawSpec: '^0.19.1',
+344 silly cache add   spec: '>=0.19.1 <0.20.0',
+344 silly cache add   type: 'range' }
+345 silly addNamed @material/mwc-button@>=0.19.1 <0.20.0
+346 verbose addNamed ">=0.19.1 <0.20.0" is a valid semver range for @material/mwc-button
+347 silly addNameRange { name: '@material/mwc-button',
+347 silly addNameRange   range: '>=0.19.1 <0.20.0',
+347 silly addNameRange   hasData: false }
+348 silly mapToRegistry name @material/mwc-button
+349 silly mapToRegistry scope (from package name) @material
+350 verbose mapToRegistry no registry URL found in name for scope @material
+351 silly mapToRegistry using default registry
+352 silly mapToRegistry registry https://registry.npmjs.org/
+353 silly mapToRegistry uri https://registry.npmjs.org/@material%2fmwc-button
+354 verbose addNameRange registry:https://registry.npmjs.org/@material%2fmwc-button not in flight; fetching
+355 verbose stack Error: Missing required argument #1
+355 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+355 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+355 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+355 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+355 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+355 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+355 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+355 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+355 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+355 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+356 verbose cwd /home/amandy/Repos/WebTeam_2019/NFC/webnfc-groceries/src
+357 error Linux 4.20.11-042011-generic
+358 error argv "/usr/bin/node" "/usr/bin/npm" "i"
+359 error node v8.10.0
+360 error npm  v3.5.2
+361 error code EMISSINGARG
+362 error typeerror Error: Missing required argument #1
+362 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+362 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+362 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+362 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+362 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+362 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+362 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+362 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+362 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+362 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+363 error typeerror This is an error with npm itself. Please report this error at:
+363 error typeerror     <http://github.com/npm/npm/issues>
+364 verbose exit [ 1, true ]
